@@ -3,3 +3,6 @@
     margin: 0 auto;
 }
 
+video{
+    object-fit: cover;
+}
