@@ -22,7 +22,7 @@
     </nav>
 
     <!-- Hero -->
-    <div id="#home" class="w-100 h-100 bg-dark position-relative">
+    <div id="home" class="w-100 h-100 bg-dark position-relative">
         <video autoplay loop muted class="position-absolute w-100 h-100" src="./ressources/hero-video.mp4"></video>
         <div class="position-absolute w-100 h-100 bg-dark opacity-50"></div>
         <div
@@ -248,7 +248,22 @@
         <h2 class="text-center fw-bolder display-5 text-white">Take Action</h2>
     </section>
 
-    
+    <!-- Contact section -->
+    <section id="contact" class="container py-5">
+        <h2 class="text-center fw-light display-5">Contact us</h2>
+        <form class="mt-5">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" id="email" class="form-control">
+                <p class="form-text">We'll never share your email.</p>
+            </div>
+            <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Your message" id="floatingTextarea" style="height: 100px"></textarea>
+                <label for="floatingTextarea">Your message</label>
+              </div>
+            <button class="btn btn-primary">Submit</button>
+        </form>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
