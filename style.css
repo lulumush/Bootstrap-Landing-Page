@@ -6,3 +6,11 @@
 video{
     object-fit: cover;
 }
+
+.img-projects{    
+    width: 100%; /* You can set the dimensions to whatever you want */
+    height: 270px;
+    object-fit: cover;
+    
+}
+
